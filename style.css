@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(200, 200, 200);
+    padding: 100px;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    margin: 20px 0;
+    color: rgb(34, 107, 217);
+}
+
+#val {
+    outline: none;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+label,
+#fTc,
+#cTf {
+    margin-bottom: 20px;
+}
+
+#submit {
+    background-color: rgb(34, 107, 217);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+}
+
+#submit:hover{
+    background-color: rgb(28, 99, 205);
+}
+
+#submit:active{
+    background-color: rgb(15, 91, 205);
+}
+
+
+#result {
+    margin: 20px 0;
+    font-size: 30px;
+    color: rgb(34, 107, 217);
+}
